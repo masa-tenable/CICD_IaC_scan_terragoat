@@ -28,5 +28,5 @@ jobs:
         uses: tenable/cloud-security-actions/iac/scan@v1
         with:
           api-token: ${{ secrets.TENABLE_API_TOKEN }}
-          api-url: https://us.app.ermetic.com
+          api-url: ${{vars.TENABLE_CS_REGION}}
 
