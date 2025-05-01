@@ -35,7 +35,7 @@ jobs:
 
       - name: Generate README.md
         run: |
-          terraform-docs markdown . > README.md
+          terraform-docs markdown ./terraform > ./terraform/README.md
 
       - name: Commit changes (if any)
         run: |
