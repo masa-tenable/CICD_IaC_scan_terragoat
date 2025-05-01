@@ -3,6 +3,8 @@ name: Generate Terraform Docs
 permissions:
   contents: write
 
+workflow_dispatch:
+
 on:
   push:
     branches:
