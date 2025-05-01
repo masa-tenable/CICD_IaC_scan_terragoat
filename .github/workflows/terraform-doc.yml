@@ -3,7 +3,7 @@ name: Generate Terraform Docs
 permissions:
   contents: write
 
-workflow_dispatch:
+:
 
 on:
   push:
@@ -13,6 +13,8 @@ on:
     paths:
       - '**/*.tf'
       - '.github/workflows/terraform-docs.yml'
+
+  workflow_dispatch:
 
 jobs:
   terraform-docs:
