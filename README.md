@@ -1,3 +1,13 @@
+# IaC scan in CI/CD Pipeline 
+
+This demo is designed with the following use cases in mind:
+
+- IaC scanning using GitHub Actions
+- Integration of TCS with the GitHub repository to automatically trigger daily scans
+- IaC scanning from a local environment using `scan_local.sh`
+
+
+<!-- BEGIN_TF_DOCS -->
 # TerraGoat - Vulnerable Terraform Infrastructure
 
 [![Maintained by Bridgecrew.io](https://img.shields.io/badge/maintained%20by-bridgecrew.io-blueviolet)](https://bridgecrew.io/?utm_source=github&utm_medium=organic_oss&utm_campaign=terragoat)
@@ -622,4 +632,4 @@ If you need direct support you can contact us at [info@bridgecrew.io](mailto:inf
 |  4 | CKV_SECRET_6 | /azure/sql.tf     | a57ae0fe47084bc8a05f69f3f8083896f8b437b0 | Base64 High Entropy String | https://docs.bridgecrew.io/docs/git_secrets_6 |
 
 ---
-
+<!-- END_TF_DOCS -->
