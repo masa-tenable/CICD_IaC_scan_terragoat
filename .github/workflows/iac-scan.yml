@@ -27,6 +27,6 @@ jobs:
       - name: Scan IaC with Tenable Cloud Security
         uses: tenable/cloud-security-actions/iac/scan@v1
         with:
-          api-token: ${{ secrets.TENABLE_API_TOKEN }}
+          api-token: ${{secrets.TENABLE_API_TOKEN}}
           api-url: ${{vars.TENABLE_CS_REGION}}
 
