@@ -12,6 +12,7 @@ This demo is designed with the following use cases in mind:
 - Set API token for reposiotry secrets (`secrets.TENABLE_API_TOKEN`)
 - Set TCS region for reposiotry variables (`vars.TENABLE_CS_REGION`)
 - The GitHub Actions configuration file is located at `.github/workflows/iac-scan.yml`.
+- The scan is triggered by a push to the main branch or by a pull request.
 
 ### For local scan (by `tenable/cloud-security-scanner` container)
 
