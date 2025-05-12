@@ -29,4 +29,6 @@ jobs:
         with:
           api-token: ${{secrets.TENABLE_API_TOKEN}}
           api-url: ${{vars.TENABLE_CS_REGION}}
+          fail-on-min-severity: critical
+
 
